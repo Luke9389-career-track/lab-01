@@ -1,8 +1,8 @@
 # LAB - 01
 
-## Proof of Life Server
+## Validator
 
-### Author: Student/Group Name
+### Author: Luke Donahue
 
 ### Links and Resources
 * [submission PR](https://github.com/Luke9389-career-track/lab-01/pull/1)
@@ -10,17 +10,6 @@
 
 #### Documentation
 * [jsdoc](./docs)
-
-### Modules
-#### 'pos.js'
-##### Exported Values and Methods
-
-#### Running the app
-* 'npm start'
-* Endpoint: '/'
-    * Returns a boolean
-* Endpoint: '/docs'
-    * Returns JSDoc Doc pages
 
 #### Tests
 * Unit Tests: 'npm test'
