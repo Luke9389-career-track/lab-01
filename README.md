@@ -14,3 +14,4 @@
 #### Tests
 * Unit Tests: 'npm test'
 * Lint Tests: 'npm run lint'
+
