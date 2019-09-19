@@ -258,7 +258,7 @@ describe('validator module', () => {
         }).toThrow(validator.TypeError);
       });
       it('from dates', () => {
-        expect(validator.castToDate(String(date))).toMatch(/Pacific Daylight Time/);
+        expect(validator.castToDate(String(date))).toMatch(/2019/);
       });
       it('from arrays', () => {
         expect(() => {
