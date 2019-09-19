@@ -163,7 +163,7 @@ describe('validator module', () => {
         expect(validator.castToString(bool)).toBe('false');
       });
       it('from dates', () => {
-        expect(validator.castToString(date)).toMatch(/Pacific Daylight Time/);
+        expect(validator.castToString(date)).toMatch(/2019/);
       });
       it('from arrays', () => {
         expect(() => {
@@ -245,7 +245,7 @@ describe('validator module', () => {
   describe('performs casting to', () => {
     describe('dates', () => {
       it('from string', () => {
-        expect(validator.castToDate(str5)).toMatch(/Pacific Daylight Time/);
+        expect(validator.castToDate(str5)).toMatch(/2019/);
       });
       it('from number', () => {
         expect(() => {
